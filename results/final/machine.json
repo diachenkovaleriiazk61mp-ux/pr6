@@ -1,0 +1,43 @@
+{
+  "variant": {
+    "variant": 7,
+    "dataset": "dermamnist",
+    "K": 7,
+    "C": 3,
+    "c1": 32,
+    "c2": 64,
+    "h": 256,
+    "P_max": 2,
+    "B": 192,
+    "b": 96,
+    "K_c": 10,
+    "s_f": 25,
+    "N": 7000,
+    "epochs": 3,
+    "lr": 0.02,
+    "linear_lr": 0.04,
+    "momentum": 0.9,
+    "warmup": 10,
+    "steps": 50
+  },
+  "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "physical_cores": 4,
+  "logical_cores": 8,
+  "memory_GiB": 6.958915710449219,
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.19 (tags/v3.10.19-dirty:f08d3c437bc, Oct 10 2025, 06:47:27) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.14.1+cpu",
+  "n_th": 2,
+  "n_params": 824263,
+  "gradient_bytes": 3297052,
+  "dataset_md5": "0744692d530f8e62ec473284d019b0c7",
+  "data_path": "C:\\Users\\ll3rra\\Downloads\\PR6_variant7_Diachenko\\PR6_variant7\\data\\dermamnist.npz",
+  "packages": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.2.6",
+    "scikit-learn": "1.7.2",
+    "psutil": "7.2.2",
+    "matplotlib": "3.10.9"
+  },
+  "smoke": false
+}

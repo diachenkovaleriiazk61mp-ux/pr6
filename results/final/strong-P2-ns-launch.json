@@ -1,0 +1,33 @@
+{
+  "command": [
+    "C:\\Users\\ll3rra\\Downloads\\PR6_variant7_Diachenko\\PR6_variant7\\.venv\\Scripts\\python.exe",
+    "-u",
+    "launch.py",
+    "--nnodes=1",
+    "--nproc_per_node=2",
+    "--rdzv-backend=static",
+    "--master-addr=127.0.0.1",
+    "--master-port=63235",
+    "--node-rank=0",
+    "--monitor-interval=0.2",
+    "--max-restarts=0",
+    "train.py",
+    "--task",
+    "bench",
+    "--mode",
+    "ddp",
+    "--name",
+    "strong-P2-ns",
+    "--out",
+    "C:\\Users\\ll3rra\\Downloads\\PR6_variant7_Diachenko\\PR6_variant7\\results\\20261121-055000-956448",
+    "--threads",
+    "2",
+    "--batch",
+    "192",
+    "--lr",
+    "0.02",
+    "--no-sync"
+  ],
+  "elapsed": 42.27473710000049,
+  "exit_code": 0
+}

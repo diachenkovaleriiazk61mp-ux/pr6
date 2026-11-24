@@ -1,0 +1,32 @@
+[W1122 01:39:00.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:49739 (system error: 10049 - unknown error).
+W1122 01:39:02.825000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Failed to register signal handler for SIGHUP
+W1122 01:39:02.825000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Traceback (most recent call last):
+W1122 01:39:02.825000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]   File "C:\Users\ll3rra\Downloads\PR6_variant7_Diachenko\PR6_variant7\.venv\lib\site-packages\torch\distributed\elastic\multiprocessing\api.py", line 545, in start
+W1122 01:39:02.825000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]     sig = getattr(signal, sig_name.strip())
+W1122 01:39:02.825000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] AttributeError: module 'signal' has no attribute 'SIGHUP'
+W1122 01:39:07.553000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Failed to register signal handler for SIGQUIT
+W1122 01:39:07.553000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Traceback (most recent call last):
+W1122 01:39:07.553000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]   File "C:\Users\ll3rra\Downloads\PR6_variant7_Diachenko\PR6_variant7\.venv\lib\site-packages\torch\distributed\elastic\multiprocessing\api.py", line 545, in start
+W1122 01:39:07.553000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]     sig = getattr(signal, sig_name.strip())
+W1122 01:39:07.553000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] AttributeError: module 'signal' has no attribute 'SIGQUIT'
+[W1122 01:39:19.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:49739 (system error: 10049 - unknown error).
+[W1122 01:39:19.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:49739 (system error: 10049 - unknown error).
+W1122 01:39:25.205000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:1028] Sending process 32540 closing signal SIGTERM
+E1122 01:39:25.226000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:1002] failed (exitcode: 1) local_rank: 1 (pid: 37552) of binary: C:\Users\ll3rra\Downloads\PR6_variant7_Diachenko\PR6_variant7\.venv\Scripts\python.exe
+W1122 01:39:27.792000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Failed to register signal handler for SIGHUP
+W1122 01:39:27.792000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Traceback (most recent call last):
+W1122 01:39:27.792000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]   File "C:\Users\ll3rra\Downloads\PR6_variant7_Diachenko\PR6_variant7\.venv\lib\site-packages\torch\distributed\elastic\multiprocessing\api.py", line 545, in start
+W1122 01:39:27.792000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]     sig = getattr(signal, sig_name.strip())
+W1122 01:39:27.792000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] AttributeError: module 'signal' has no attribute 'SIGHUP'
+W1122 01:39:27.794000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Failed to register signal handler for SIGQUIT
+W1122 01:39:27.794000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Traceback (most recent call last):
+W1122 01:39:27.794000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]   File "C:\Users\ll3rra\Downloads\PR6_variant7_Diachenko\PR6_variant7\.venv\lib\site-packages\torch\distributed\elastic\multiprocessing\api.py", line 545, in start
+W1122 01:39:27.794000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]     sig = getattr(signal, sig_name.strip())
+W1122 01:39:27.794000 35344 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] AttributeError: module 'signal' has no attribute 'SIGQUIT'
+[W1122 01:39:39.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:49739 (system error: 10049 - unknown error).
+[W1122 01:39:39.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:49739 (system error: 10049 - unknown error).
+Restored checkpoint at step 20
+quality-recovery: epoch 1/3, step=36, loss=1.044087
+quality-recovery: epoch 2/3, step=72, loss=0.984875
+quality-recovery: epoch 3/3, step=108, loss=0.846504
+quality-recovery: ACC=0.679302, AUC=0.827122

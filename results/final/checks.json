@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "smoke": false,
+  "gradient_equivalent": true,
+  "max_relative_gradient_error": 7.552009803041808e-06,
+  "weight_sum_spread": 0.0,
+  "recovery_max_loss_difference": 0.0,
+  "recovery_ACC_difference": 0.0,
+  "completed_steps": 108
+}

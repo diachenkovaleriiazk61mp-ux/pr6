@@ -1,0 +1,14 @@
+[W1122 01:23:36.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:63235 (system error: 10049 - unknown error).
+W1122 01:23:38.990000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Failed to register signal handler for SIGHUP
+W1122 01:23:38.990000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Traceback (most recent call last):
+W1122 01:23:38.990000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]   File "C:\Users\ll3rra\Downloads\PR6_variant7_Diachenko\PR6_variant7\.venv\lib\site-packages\torch\distributed\elastic\multiprocessing\api.py", line 545, in start
+W1122 01:23:38.990000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]     sig = getattr(signal, sig_name.strip())
+W1122 01:23:38.990000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] AttributeError: module 'signal' has no attribute 'SIGHUP'
+W1122 01:23:41.510000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Failed to register signal handler for SIGQUIT
+W1122 01:23:41.510000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] Traceback (most recent call last):
+W1122 01:23:41.510000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]   File "C:\Users\ll3rra\Downloads\PR6_variant7_Diachenko\PR6_variant7\.venv\lib\site-packages\torch\distributed\elastic\multiprocessing\api.py", line 545, in start
+W1122 01:23:41.510000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549]     sig = getattr(signal, sig_name.strip())
+W1122 01:23:41.510000 26448 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\api.py:549] AttributeError: module 'signal' has no attribute 'SIGQUIT'
+[W1122 01:23:55.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:63235 (system error: 10049 - unknown error).
+[W1122 01:23:55.000000000 socket.cpp:764] [c10d] The client socket has failed to connect to [Server044]:63235 (system error: 10049 - unknown error).
+strong-P2-ns: step=193.615 ms; X=948.52

@@ -1,0 +1,23 @@
+{
+  "command": [
+    "C:\\Users\\ll3rra\\Downloads\\PR6_variant7_Diachenko\\PR6_variant7\\.venv\\Scripts\\python.exe",
+    "-u",
+    "train.py",
+    "--task",
+    "quality",
+    "--mode",
+    "plain",
+    "--name",
+    "quality-plain-B",
+    "--out",
+    "C:\\Users\\ll3rra\\Downloads\\PR6_variant7_Diachenko\\PR6_variant7\\results\\20261121-055000-956448",
+    "--threads",
+    "2",
+    "--batch",
+    "192",
+    "--lr",
+    "0.02"
+  ],
+  "elapsed": 30.708828699978767,
+  "exit_code": 0
+}

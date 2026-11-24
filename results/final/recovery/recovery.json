@@ -1,0 +1,11 @@
+{
+  "checkpoint_step": 20,
+  "failure_step": 25,
+  "repeated_steps": 4,
+  "t_f": 245969.9056,
+  "t_c": 245969.2302225,
+  "first_resumed_step": 21,
+  "first_resumed_finished": 245985.1770125,
+  "t_r": 15.271412500005681,
+  "t_lost": 15.946790000016335
+}

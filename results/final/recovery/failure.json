@@ -1,0 +1,10 @@
+{
+  "rank": 1,
+  "step": 25,
+  "last_completed_step": 24,
+  "checkpoint_step": 20,
+  "checkpoint_at": 245969.2302225,
+  "at": 245969.9056,
+  "epoch": 0,
+  "step_in_epoch": 24
+}
